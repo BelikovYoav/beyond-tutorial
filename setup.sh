@@ -12,4 +12,4 @@ pipenv sync --dev
 
 # run our app. Nohup and "&" are used to let the setup script finish
 # while our app stays up. The app logs will be collected in nohup.output
-nohup pipenv run python manage.py runserver 0.0.0:8000 &
+nohup pipenv run python manage.py runserver 0.0.0.0:8000 &
